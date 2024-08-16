@@ -119,6 +119,8 @@
 // --------------------------------------------------------------------------------- 12
 
 // Developer Skills & Editor Setup
+// ---------------------------------------------------------------------------------
+
 // Coding Challenge #1
 // Given an array of forecasted maximum temperatures, the thermometer displays a string with the given temperatures. Example: [17, 21, 23] will print "... 17oC in 1 days ... 21oC in 2 days ... 23oC in 3 days ..."
 // Your tasks:
@@ -145,6 +147,8 @@
 // --------------------------------------------------------------------------------- 14
 
 // Data Structures, Modern Operators and Strings
+// ---------------------------------------------------------------------------------
+
 // Coding Challenge #1
 // We're building a football betting app (soccer for my American friends 😅)!
 // Suppose we get data from a web service about a certain game ('game' variable on next page). In this challenge we're gonna work with that data.
@@ -280,6 +284,8 @@
 //   The Complete JavaScript Course 19
 
 // A Closer Look at Functions
+// ---------------------------------------------------------------------------------
+
 // Coding Challenge #1
 // Let's build a simple poll app!
 // A poll has a question, an array of options from which people can choose, and an array with the number of replies for each option. This data is stored in the starter 'poll' object below.
@@ -323,6 +329,8 @@
 //--------------------------------------------------------------------------------- 22
 
 // Working With Arrays
+// ---------------------------------------------------------------------------------
+
 // Coding Challenge #1
 // Julia and Kate are doing a study on dogs. So each of them asked 5 dog owners about their dog's age, and stored the data into an array (one array for each). For now, they are just interested in knowing whether a dog is an adult or a puppy.
 // A dog is an adult if it is at least 3 years old, and it's a puppy if it's less than 3 years old.
@@ -388,6 +396,8 @@
 //--------------------------------------------------------------------------------- 26
 
 // Object Oriented Programming (OOP)
+// ---------------------------------------------------------------------------------
+
 // Coding Challenge #1
 // Your tasks:
 // 1. Useaconstructorfunctiontoimplementa'Car'.Acarhasa'make'anda 'speed' property. The 'speed' property is the current speed of the car in km/h
@@ -435,6 +445,8 @@
 //--------------------------------------------------------------------------------- 29
 
 // Asynchronous JavaScript
+// ---------------------------------------------------------------------------------
+
 // Coding Challenge #1
 // In this challenge you will build a function 'whereAmI' which renders a country only based on GPS coordinates. For that, you will use a second API to geocode coordinates. So in this challenge, you’ll use an API on your own for the first time 😁
 // Your tasks:
