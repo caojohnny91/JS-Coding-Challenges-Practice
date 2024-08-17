@@ -13,6 +13,7 @@ console.log("-------------------------------- Coding Challenge #1");
 // 2. Calculate both their BMIs using the formula (you can even implement both versions)
 // 3. Create a Boolean variable 'markHigherBMI' containing information about
 // whether Mark has a higher BMI than John.
+
 // Test data:
 // Data 1: Marks weights 78 kg and is 1.69 m tall. John weights 92 kg and is 1.95 m tall.
 // Data 2: Marks weights 95 kg and is 1.88 m tall. John weights 85 kg and is 1.76 m tall.
@@ -22,17 +23,24 @@ const calcBMI = function (weight, height) {
   return weight / height ** 2;
 };
 
-const markBMI = calcBMI(78, 1.69);
+// Test Data 1:
+const markBMIData1 = calcBMI(78, 1.69); // 27.31
+const johnBMIData1 = calcBMI(92, 1.9); // 25.49
 
-const johnBMI = calcBMI(92, 1.9);
-
-console.log("markBMI:", markBMI, "johnBMI:", johnBMI);
+console.log("markBMI:", markBMIData1, "johnBMI:", johnBMIData1);
 
 const markHigherBMI = function (markBMI, johnBMI) {
   return markBMI > johnBMI ? true : false;
 };
 
-console.log(markHigherBMI(markBMI, johnBMI));
+console.log(markHigherBMI(markBMIData1, johnBMIData1)); // true
+
+// Test Data 2:
+const markBMIData2 = calcBMI(95, 1.88); // 26.88
+const johnBMIData2 = calcBMI(85, 1.76); // 27.44
+console.log("markBMI:", markBMIData2, "johnBMI:", johnBMIData2);
+
+console.log(markHigherBMI(markBMIData2, johnBMIData2)); // false
 
 //--------------------------------------------------------------------------------- 5
 
