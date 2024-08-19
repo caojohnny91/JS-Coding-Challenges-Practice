@@ -36,7 +36,7 @@ const checkWinner = function (avgDolphins, avgKoalas) {
   } else if (avgKoalas > avgDolphins && avgKoalas >= 2 * avgDolphins) {
     return `Koalas Win! (${avgKoalas} vs. ${avgDolphins})`;
   } else {
-    return "Both team lose! :(";
+    return "Both team lose because no one doubled the opponents score! :(";
   }
 };
 
