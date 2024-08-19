@@ -91,6 +91,38 @@ console.log("-------------------------------- Coding Challenge #3");
 // Test data: Marks weights 78 kg and is 1.69 m tall. John weights 92 kg and is 1.95 m tall.
 // GOOD LUCK😀
 
+const mark = {
+  fullName: "Mark Miller",
+  mass: 78,
+  height: 1.69,
+  calcBMI: function () {
+    this.bmi = this.mass / this.height ** 2;
+    return this.bmi;
+  },
+};
+mark.calcBMI(); // need to invoke before you can use mark.bmi (this.bmi)
+
+const john = {
+  fullName: "John Smith",
+  mass: 92,
+  height: 1.95,
+  calcBMI: function () {
+    this.bmi = this.mass / this.height ** 2;
+    return this.bmi;
+  },
+};
+john.calcBMI(); // need to invoke before you can use john.bmi (this.bmi)
+
+console.log("MarkBMI:", mark.bmi, "JohnBMI:", john.bmi); // 27.31, 24.19
+
+if (mark.bmi > john.bmi) {
+  console.log(`${mark.fullName}'s BMI (${mark.bmi}) is higher than ${john.fullName}'s BMI (${john.bmi})!`);
+} else if (john.bmi > mark.bmi) {
+  console.log(`${john.fullName}'s BMI (${john.bmi}) is higher than ${mark.fullName}'s BMI (${mark.bmi})!`);
+} else {
+  console.log(`${mark.fullName} and ${john.fullName} have the same BMI(${mark.bmi})!`);
+}
+
 //--------------------------------------------------------------------------------- 11
 
 console.log("-------------------------------- Coding Challenge #4");
