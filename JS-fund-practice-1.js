@@ -41,7 +41,10 @@ console.log("-------------------------------- Equality Operators: == vs. ===");
 // prompt('How many neighbour countries does your contry have?');
 
 // let numNeighbors = prompt("How many neighboring countries does your country have?");
-// numNeighbors = Number(numNeighbors); // prompt inputs are initially strings, so we need to convert to number
+
+// Need to convert prompt input into a NUMBER instead of a string
+// let numNeighbors = Number(prompt("How many neighboring countries does your country have?"));
+
 // console.log(numNeighbors, typeof numNeighbors);
 
 // If there is only 1 neighbour, log to the console 'Only 1 border!' (use loose equality == for now).
