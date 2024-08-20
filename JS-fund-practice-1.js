@@ -104,10 +104,37 @@ console.log("-------------------------------- The switch Statement");
 // arabic: '5th most spoken language';
 // for all other simply log 'Great language too :D'.
 
-// const languageRanking = "Enter Language Here";
+const languageRanking = "ENGLISH";
+
+switch (
+  languageRanking.toLowerCase() // added .toLowerCase() method to make sure to accept any spelling
+) {
+  case "chinese":
+  case "manadrin":
+    console.log("MOST number of native speakers!");
+    break;
+  case "spanish":
+    console.log("2nd place in number of native speakers");
+    break;
+  case "english":
+    console.log("3rd place");
+    break;
+  case "hindi":
+    console.log("Number 4");
+    break;
+  case "arabic":
+    console.log("5th most spoken language");
+    break;
+  default:
+    console.log("Great language too :D");
+}
 
 console.log("-------------------------------- The Conditional (Ternary) Operator");
 
 // If your country's population is greater than 33 million, use the ternary operator to log a string like this to the console: "Portugal's population is above average". Otherwise, simply log "Portugal's population is below average". Notice how only one word change between these two sentences!
 
 // After checking the result, change the population temporarily to 13 and then to 130. See the different results, and set the population back to original.
+
+countryObj.population > 33
+  ? console.log(`${countryObj.name}'s population is above the average.`)
+  : console.log(`${countryObj.name}'s population is below the average.`);
